@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+
+    </div>
+    <br>
+    <button onclick="changeColor()">Change Color</button>
+
+    <script>
+        function changeColor()
+        {
+            var div=document.getElementById("container");
+            div.style.backgroundColor="red";
+        }
+    </script>
+
+
+</body>
+</html>
